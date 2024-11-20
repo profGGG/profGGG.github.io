@@ -18,8 +18,21 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+We are a group of multidisciplinary team of engineers and scientists who specialize in combining the principles of engineering, biology, and medicine to develop solutions for healthcare problems. Our team is dedicated to improve healthcare through research and innovation. At our core, we believe that technology has the power to transform healthcare and improve patient outcomes. That’s why we focus on developing cutting-edge solutions that are efficient, effective, and accessible to all. We are passionate about exploring new and innovative approaches to solving complex challenges.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Our research focuses on several key areas, including
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+non-invasive saliva analysis
+blood-borne pathogen analysis
+air-borne pathogen analysis
+agriculture monitoring
+device development: micro/nano MEMS, novel sensors, instrumentation
+algorithms and data analysis
+We use a wide range of technologies to develop our solutions, including
+
+advanced micro/nanofabrication
+advanced molecular technologies
+embedded systems
+machine learning and artificial intelligence
+3D printing
+By combining these technologies with our deep understanding of engineering, biology, and medicine, we aim to develop solutions that are truly groundbreaking.
