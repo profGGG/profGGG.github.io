@@ -9,57 +9,44 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
+## I. Solid-State Nanopores: Physics, Fabrication, and Applications
 
-<!-- Display projects without categories -->
+Nanopores and nanochannels offer unique platforms to explore new physical and chemical phenomena appearing for molecules confined in or transported through these structures. New transport behavior and biosensing functionalities can be developed by taking advantage of these unique phenomena occurring at these scales.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+Particularly, solid-state nanopores have been extensively studied in the past decade due to their mechanical robustness, tunable size, thermal robustness, and integration potential. The solid-state nanopore family includes membrane materials such as SiNx, graphene, glass nanopores (nanopipette), and polymer nanopores. We study solid-state nanopores with the aim to understand device physics, explore viable fabrication and integration methods, and develop single-molecule sensing applications.
 
-  <!-- Generate cards for each project -->
+---
 
-{% if page.horizontal %}
+## II. Point-of-Care Nucleic Acid Testing (NAT)
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+Nucleic acid testing (NAT) is currently the most sensitive method available for identifying infectious pathogens. Nevertheless, NAT-based diagnoses developed to date mostly require sophisticated infrastructures, reagents, and skilled technicians. While readily available in reference laboratories, NATs such as PCR remain inaccessible in resource-limited settings. 
+
+Although extensive efforts have been undertaken toward point-of-care (POC) molecular diagnosis, a fully validated “sample-in-answer-out” NAT system has not been developed due to significant challenges of portability, sample preparation, and throughput. In response to this urgent need, we aim to develop low-cost field-deployable NAT devices and systems, especially for infectious diseases in resource-limited areas. These NAT devices could be loaded with easily-obtainable raw samples such as finger-prick blood, making diagnostic testing faster and easier for identifying pathogens like Malaria, Zika, HIV, and SARS-CoV-2.
+
+---
+
+## III. Microfluidics and Applications
+
+We develop technologies to precisely control and manipulate fluids that are geometrically constrained to a small scale (from μL to fL). It involves multidisciplinary fields across engineering, physics, chemistry, and nanotechnology. It has practical applications in the design of systems that process low volumes of fluids to achieve multiplexing, automation, and high-throughput screening.
+
+---
+
+## Acknowledgments
+
+### We are grateful for the support from the following sponsors:
+
+![Sponsor Logo](#)
+
+---
+
+### And the following Penn State Institutes/Centers/Departments:
+
+![Penn State Lion](https://sites.psu.edu/guanlab/files/2020/09/cropped-pennStateLion-300x300.jpg)
+
+- Electrical Engineering
+- Materials Research Institute
+- Huck Institutes of the Life Sciences
+- College of Engineering
+- Clinical and Translational Science Institute
+- Center for Biodevices
