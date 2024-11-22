@@ -5,4 +5,4 @@ permalink: /news/
 nav: true
 ---
 
-hello
+{% include news.liquid %}
