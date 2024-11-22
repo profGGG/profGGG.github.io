@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: #Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 
@@ -12,9 +12,8 @@ nav_order: 6
 
 In this course, we learn about the electrical properties of different fundamental semiconductor devices and their basic circuit design applications. This course deals explicitly with both linear and nonlinear applications of devices, and with the practical aspects of design such as the inherently nonlinear nature of semiconductor devices. The analysis concepts introduced in your previous network course are utilized and advanced in their treatment of nonlinear devices. In the laboratory, we put the theory into practice.
 
-
-
 ## EE 442 Solid State Devices
+
 The lecture provides learning opportunities that should enable the students to do the following upon completion of this course:
 
 1. Develop a basic understanding of the following key concepts in quantum and statistical mechanics relevant to the physical properties of electronic materials and their device applications:
@@ -30,12 +29,13 @@ The lecture provides learning opportunities that should enable the students to d
 ## EE 597 Micro & Nano Medical Devices
 
 This course aims to provide a comprehensive foundation in the theory and application of micro- and nanoscale medical devices. The objectives are to (1) introduce fundamental concepts in the design and fabrication of micro- and nanoscale MEMS, fluidics, and lab-on-a-chip systems; (2) provide exposure to clinically relevant applications, particularly in the area of point-of-care diagnostics; (3) teach students how to conduct literature reviews, write, and evaluate research proposals; and (4) familiarize students with the medical device industry and related regulations. By the end of this course, students will have the knowledge and skills necessary to engage in research, development, and regulatory understanding of biomedical devices in the following topics.
-   - Approaches to fabricate micro- and nanostructures in various materials such as semiconductors, polymers, and glass. 
-   - Fluid mechanics and electrokinetics in microfluidic and nanofluidic systems
-   - Biosensors and signal transducing.
-   - Medical device and system instrumentation.
-   - Micro total analysis system (μTAS), lab-on-a-chip devices, point of care diagnostics.
-   - Integrated micro/nanodevices for clinical medicine.
-   - High-content and high throughput technologies for genomics, proteomics and cell-based analysis. 
-   - Emerging disruptive technologies such as nanopore-based sequencing. 
-   - FDA regulations on medical device
+
+- Approaches to fabricate micro- and nanostructures in various materials such as semiconductors, polymers, and glass.
+- Fluid mechanics and electrokinetics in microfluidic and nanofluidic systems
+- Biosensors and signal transducing.
+- Medical device and system instrumentation.
+- Micro total analysis system (μTAS), lab-on-a-chip devices, point of care diagnostics.
+- Integrated micro/nanodevices for clinical medicine.
+- High-content and high throughput technologies for genomics, proteomics and cell-based analysis.
+- Emerging disruptive technologies such as nanopore-based sequencing.
+- FDA regulations on medical device
