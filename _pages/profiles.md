@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: Weihua Guan.jpg
-    content: about_einstein.md
+    content: about_wguan.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Weihua (Wei) Guan, Ph.D.</p>
