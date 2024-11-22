@@ -6,7 +6,7 @@ nav_order: 8
 dropdown: true
 children:
   - title: journals
-    permalink: /publications/
+    permalink: /journals/
   - title: divider
   - title: conferences
     permalink: /conferences/
