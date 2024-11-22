@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://profGGG.github.io/sitemap.xml
+Sitemap: https://profggg.github.io/sitemap.xml
