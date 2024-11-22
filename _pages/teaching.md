@@ -28,14 +28,21 @@ The lecture provides learning opportunities that should enable the students to d
 
 ## EE 597 Micro & Nano Medical Devices
 
-This course aims to provide a comprehensive foundation in the theory and application of micro- and nanoscale medical devices. The objectives are to (1) introduce fundamental concepts in the design and fabrication of micro- and nanoscale MEMS, fluidics, and lab-on-a-chip systems; (2) provide exposure to clinically relevant applications, particularly in the area of point-of-care diagnostics; (3) teach students how to conduct literature reviews, write, and evaluate research proposals; and (4) familiarize students with the medical device industry and related regulations. By the end of this course, students will have the knowledge and skills necessary to engage in research, development, and regulatory understanding of biomedical devices in the following topics.
+This course aims to provide a comprehensive foundation in the theory and application of micro- and nanoscale medical devices. The objectives are:
+
+1. Introduce fundamental concepts in the design and fabrication of micro- and nanoscale MEMS, fluidics, and lab-on-a-chip systems.
+2. Provide exposure to clinically relevant applications, particularly in the area of point-of-care diagnostics.
+3. Teach students how to conduct literature reviews, write, and evaluate research proposals.
+4. Familiarize students with the medical device industry and related regulations.
+
+### Topics Covered
 
 - Approaches to fabricate micro- and nanostructures in various materials such as semiconductors, polymers, and glass.
-- Fluid mechanics and electrokinetics in microfluidic and nanofluidic systems
+- Fluid mechanics and electrokinetics in microfluidic and nanofluidic systems.
 - Biosensors and signal transducing.
 - Medical device and system instrumentation.
-- Micro total analysis system (μTAS), lab-on-a-chip devices, point of care diagnostics.
+- Micro total analysis system (μTAS), lab-on-a-chip devices, point-of-care diagnostics.
 - Integrated micro/nanodevices for clinical medicine.
-- High-content and high throughput technologies for genomics, proteomics and cell-based analysis.
+- High-content and high-throughput technologies for genomics, proteomics, and cell-based analysis.
 - Emerging disruptive technologies such as nanopore-based sequencing.
-- FDA regulations on medical device
+- FDA regulations on medical devices.
