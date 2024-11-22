@@ -216,7 +216,7 @@
         {% endif %}
       {% endif %}
       {% if entry.news %}
-        <p><strong>Media Mentions:</strong></p>
+        <p>Media:</p>
         <ul>
           {% assign mentions = entry.news | split: ";" %}
           {% for mention in mentions %}
