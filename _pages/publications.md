@@ -14,7 +14,10 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
+  {% assign sorted_entries = site.scholar.publications | sort: "year" | reverse %}
+  {% assign sorted_entries = sorted_entries | sort: "month" %}
 
-{% bibliography %}
-
+  {% for entry in sorted_entries %}
+    {% include scholar/publication.html entry=entry %}
+  {% endfor %}
 </div>

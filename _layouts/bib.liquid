@@ -218,7 +218,7 @@
       {% if entry.news %}
         <p><strong>Media Mentions:</strong></p>
         <ul>
-          {% assign mentions = entry.news | split: "," %}
+          {% assign mentions = entry.news | split: ";" %}
           {% for mention in mentions %}
             {% assign parts = mention | split: "|" %}
             <li><a href="{{ parts[1] | strip }}" target="_blank">{{ parts[0] | strip }}</a></li>
